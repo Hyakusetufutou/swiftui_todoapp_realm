@@ -11,6 +11,10 @@
 		2270D5562BE0655900DAB45C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270D5552BE0655900DAB45C /* ContentView.swift */; };
 		2270D5582BE0655A00DAB45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2270D5572BE0655A00DAB45C /* Assets.xcassets */; };
 		2270D55B2BE0655A00DAB45C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2270D55A2BE0655A00DAB45C /* Preview Assets.xcassets */; };
+		2270D5642BE0664300DAB45C /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270D5632BE0664300DAB45C /* TasksView.swift */; };
+		2270D5672BE0696000DAB45C /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270D5662BE0696000DAB45C /* TaskRow.swift */; };
+		228B5DB62BE072300094E392 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B5DB52BE072300094E392 /* AddTaskView.swift */; };
+		228B5DB82BE077390094E392 /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B5DB72BE077390094E392 /* SmallAddButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2270D5552BE0655900DAB45C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2270D5572BE0655A00DAB45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2270D55A2BE0655A00DAB45C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2270D5632BE0664300DAB45C /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		2270D5662BE0696000DAB45C /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		228B5DB52BE072300094E392 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		228B5DB72BE077390094E392 /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		2270D5522BE0655900DAB45C /* TodoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2270D5682BE0712100DAB45C /* Views */,
+				2270D5652BE0694300DAB45C /* Component */,
 				2270D5532BE0655900DAB45C /* TodoDemoApp.swift */,
-				2270D5552BE0655900DAB45C /* ContentView.swift */,
 				2270D5572BE0655A00DAB45C /* Assets.xcassets */,
 				2270D5592BE0655A00DAB45C /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				2270D55A2BE0655A00DAB45C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2270D5652BE0694300DAB45C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2270D5662BE0696000DAB45C /* TaskRow.swift */,
+				228B5DB72BE077390094E392 /* SmallAddButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		2270D5682BE0712100DAB45C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2270D5552BE0655900DAB45C /* ContentView.swift */,
+				2270D5632BE0664300DAB45C /* TasksView.swift */,
+				228B5DB52BE072300094E392 /* AddTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2270D5562BE0655900DAB45C /* ContentView.swift in Sources */,
+				228B5DB62BE072300094E392 /* AddTaskView.swift in Sources */,
+				2270D5642BE0664300DAB45C /* TasksView.swift in Sources */,
+				228B5DB82BE077390094E392 /* SmallAddButton.swift in Sources */,
 				2270D5542BE0655900DAB45C /* TodoDemoApp.swift in Sources */,
+				2270D5672BE0696000DAB45C /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
